@@ -6,8 +6,8 @@ export default class CheckPayType extends Component {
         return (
             <div>
                 <div className="field">
-                    <label htmlFor="order_routing_number">Rounting #</label>
-                    <input type="password" name="order[routing_number]" id="order_rounting_number"/>
+                    <label htmlFor="order_routing_number">Routing #</label>
+                    <input type="password" name="order[routing_number]" id="order_routing_number"/>
                 </div>
                 <div className="field">
                     <label htmlFor="order_account_number">Account #</label>
