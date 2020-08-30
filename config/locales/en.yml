@@ -31,3 +31,27 @@
 
 en:
   hello: "Hello world"
+  layouts:
+    application:
+      title:  "The Pragmatic Bookshelf"
+      home: "Home"
+      questions: "Questions"
+      news: "News"
+      contact:  "Contact"
+  store:
+    index:
+      add_html: "Add to Cart"
+      title_html: "Your Pragmatic Catalog"
+  carts:
+    cart:
+      title: "Your Cart"
+      empty: "Empty Cart"
+      checkout: "Checkout"
+  numer:
+    currency:
+      format:
+        unit: "$"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%u%n"
