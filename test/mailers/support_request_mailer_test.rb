@@ -2,11 +2,10 @@ require 'test_helper'
 
 class SupportRequestMailerTest < ActionMailer::TestCase
   test "respond" do
-    mail = SupportRequestMailer.respond
-    assert_equal "Respond", mail.subject
-    assert_equal ["to@example.org"], mail.to
-    assert_equal ["from@example.com"], mail.from
-    assert_match "Hi", mail.body.encoded
+    mail = SupportRequestMailer.respond(support_requests(:two))
+    assert_equal "Re: teste", mail.subject
+    assert_equal ["charles@teste.com"], mail.to
+    assert_equal ["support@example.com"], mail.from
   end
 
 end

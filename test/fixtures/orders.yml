@@ -24,3 +24,9 @@ two:
   adress: MyText
   email: MyString
   pay_type: 1
+
+other_customer_two:
+  name: Chris Jones
+  adress: 456 Somewhere Ln
+  email: charles@teste.com
+  pay_type: Check

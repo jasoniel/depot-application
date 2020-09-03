@@ -9,6 +9,8 @@ one:
   subject: teste
   body: teste
 
-#
-two: {}
-# column: value
+two: 
+  email: charles@teste.com
+  subject: teste
+  body: teste
+  order: other_customer_two
