@@ -44,7 +44,7 @@
                 <h3 class="notice">No associated order</h3>
             <% end%>
             <% if support_request.response.blank?%>
-                <%= form_with(model: support_request,
+                <%= form_with(
                               local: true,
                               class: "depot_form") do |form|%>
                     <div class="field">
